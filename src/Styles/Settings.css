@@ -1,0 +1,68 @@
+.settings-page {
+
+}
+.settings-div {
+    background-color: white;
+    padding-top: 5px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+}
+.settings-div h4 {
+    text-align: center;
+    text-decoration: underline;
+}
+.user-info-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.settings-form,
+.user-info {
+    padding: 20px;
+}
+.user-info p {
+    background-color: #EFE9E9;
+    padding: 8px 37px;
+    border-radius: 6px;
+}
+.settings-form input {
+    height: 37px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    border-radius: 6px;
+    /* margin-bottom: 10px; */
+}
+.settings-form input:focus {
+    outline: 2px solid #61A5E7;
+}
+#email {
+    margin-top: 0px;
+    margin-bottom: 17px;
+}
+.wrong-email {
+    font-style: italic;
+    color: #ED4747;
+    font-size: 12px;
+}
+#btn-update {
+    cursor: pointer;
+    background-color: #3EB2FD;
+    font-size: 1rem;
+    /* border-radius: 125px; */
+    color: white;
+    transition: all .3s;
+}
+#btn-update:hover {
+    transform: background-color;
+    background-color: #3BA6EB;
+}
+.create-device-form input {
+    margin-bottom: 15px;
+}
+
+
+

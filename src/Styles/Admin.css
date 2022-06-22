@@ -1,0 +1,59 @@
+.right-section-bottom {
+    margin-top: 50px;
+}
+.map-img {
+    width: 100%;
+    min-width: 300px;
+    max-width: 300px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+}
+.user-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #BBE5EF;
+    padding: 12px 18px;
+    border-radius: 33px;
+}
+.online-gateways {
+    border: 1px solid #ccc;
+}
+.online-gateways:hover {
+  background: #E4F3F5;
+  cursor: pointer;
+}
+.user-section div {
+    padding: 8px;
+    width: 170px;
+    text-align: center;
+    border-radius: 19px;
+}
+.username-section {
+    font-weight: bold;
+    /* background-image: linear-gradient(to right, #BBE5EF, dodgerblue); */
+}
+.date-section {
+    font-weight: bold;
+    /* background-image: linear-gradient(to right, dodgerblue, #BBE5EF); */
+}
+.google-map-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    box-shadow: 3px 3px 15px 15px rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (max-width: 800px) {
+    .user-section {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-radius: 12px;
+    }
+    .username-section,
+    .date-section {
+        background-image: linear-gradient(to right, dodgerblue, #BBE5EF, dodgerblue);
+    }
+}
